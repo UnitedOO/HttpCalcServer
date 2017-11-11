@@ -13,7 +13,7 @@ namespace CalcTest
         [DataRow(1, 2, "-", -1)]
         [DataRow(2, 2, "/", 1)]
 
-        [TestMethod()]
+        [TestMethod]
         public void funct_calcTest(int a, int b, string op, int exp)
         {
             int res = HttpServer.Calc(a, b, op);
